@@ -1,40 +1,47 @@
 .header {
     font-family: Noto serif;
-    font-size: 70px;
+    font-size: 4em;
     text-align: center;
     width: 100%;
-    top: 0;
 }
-ul {
-    list-style-type: none;
-    margin: 0px;
-    padding: 10px;
-    width: 3%;
-    height: 100%;  
+
+.navbar {
     position: fixed;
-    text-align: left;
-    float: left;
+    height: 100%;
+    width: 60px;
     left: 0;
-}    
-.material-icons {
-    font-size: 35px;
+    top: 0;
+    padding-top: 20px;
 }
-a.i:link, a.i:visited {
+
+.navbar .material-icons {
+    font-size: 48px;
+    margin: 6px 0;
+}
+.navbar a {
     color: black;
+    text-decoration: none;
+    padding: 6px;
 }
-a.i:hover {
-    box-shadow: 1px 1px 1px 1px;
-    display: block;
+.navbar a:hover {
+    background-color: black;
+    color: white;
 }
-a.i:active {
+.navbar .active {
     color: green;
 }
+
+.page {
+    margin-left: 60px;
+}
+
 table {
     width: 96.5%;
     padding: 30px solid;
     text-align: center;
     float: center;
 }
+
 .spec {
     width: 40%;
     border: 2px solid grey;
@@ -43,7 +50,7 @@ table {
     text-align: center;
 }
 .overview {
-    width: 80%; 
+    width: 80%;
     border: 2px solid grey;
     padding: 10px;
     border-radius: 25px;
