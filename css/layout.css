@@ -10,6 +10,7 @@ body {
         color: white;
         text-align: center;
         border-bottom: solid 1px;
+        font-family: Kite One;
     }
 
 .navigation-bar {
@@ -23,6 +24,7 @@ body {
 }
 .navigation-bar a {
     text-decoration: none;
+    font-family: Mukta Mahee;
 }
 .navigation-bar span {
     font-size: 24px;
