@@ -2,7 +2,7 @@ function greeting(){
     var dailyGreetings = document.getElementById("daily-greetings");
     var myDate = new Date();
     // var today = myDate.getDay();
-    var today = 5;
+    var today = myDate.getDay();
     var hours = myDate.getHours();
 
     if ((today == 6) || (today == 0)){
