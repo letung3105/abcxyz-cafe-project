@@ -1,0 +1,11 @@
+.contact-form-container {
+    width: 40%;
+    float: right;
+}
+
+.address-container {
+    width: 40%;
+    float: left;
+    margin-left: 40px;
+    margin-top: 40px;
+}
