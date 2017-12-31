@@ -1,0 +1,46 @@
+#page-name {
+    font-family: Roboto Slab;
+    font-size: 60px;
+    margin-top: 50px;
+    text-align: center;
+}
+#thank {
+    font-family: Open Sans;
+    font-size: 20px;
+    margin: 0 0 70px 130px;
+}
+form {
+    width: 75%;
+    font-family: Open Sans;
+    font-size: 17px;
+    margin-left: 130px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 25px;
+}
+.form-main-content {
+    width: 93%;
+    border: 2px solid #000000;
+    border-radius: 20px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+fieldset {
+    margin-right: 5px;
+    border-radius: 5px;
+}
+textarea {
+    padding: 5px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    font-family: Open Sans;
+    font-size: 15px;
+    max-width: 100%;
+}
+input[type=submit] {
+    margin-top: 25px;
+    float: right;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+}
