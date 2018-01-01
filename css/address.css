@@ -81,9 +81,9 @@
         font-size: 24px;
         padding: 10px 20px;
         border: solid 2px;
+        cursor: pointer;
     }
     #submit-button:hover {
-        cursor: pointer;
         color: white;
-        background-color: #322A22;
+        background-color: #4E342E;
     }
