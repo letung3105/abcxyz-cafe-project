@@ -8,11 +8,19 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Slab|Open+Sans|Kite+One|Mukta+Mahee">
     <link rel="stylesheet" type="text/css" href="css/layout.css">
     <link rel="stylesheet" type="text/css" href="css/menu.css">
+    <script type="text/javascript" src="js/login-popup.js"></script>
 </head>
 <body>
+    <div id="blur-filter"></div>
     <div class="navigation-bar">
         <div id="cafe-name">
             <h1>ABCXYZ Cafe</h1>
+        </div>
+        <div class="navigation-menu-item">
+            <a onclick="openLogin()">
+                <i class="material-icons">account_circle</i>
+                <span>Login</span>
+            </a>
         </div>
         <div class="navigation-menu-item">
             <a href="index.html">
@@ -41,6 +49,30 @@
     </div>
 
     <div class="main-container">
+        <div id="login-form-container">
+            <form action="" method="post" enctype="multimedia/form-data" target="_seft">
+                <h1>Log In</h1>
+                <div class="input-section">
+                    <label><b>Email</b></label>
+                    <input class="text-field" type="text" placeholder="Enter Email" name="email" required>
+                </div>
+                <div class="input-section">
+                    <label><b>Password</b></label>
+                    <input class="text-field" type="password" placeholder="Enter Password" name="password" required>
+                </div>
+                <div>
+                    <input type="checkbox" checked>
+                    <span>Remember me</span>
+                </div>
+                <table cellspacing="20px">
+                    <tr>
+                        <td><button class="login-btn" type="submit">Log in</button></td>
+                        <td><button class="close-btn" type="button" onclick="closeLogin()">Close</button></td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+
         <p align="center">
             <font size="+2">
                 We serve the best coffee, awesome blends, nice teas and great lattes!!!
