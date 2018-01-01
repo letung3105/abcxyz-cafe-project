@@ -1,0 +1,53 @@
+#page-name {
+    font-family: Roboto Slab;
+    font-size: 60px;
+    margin-top: 20px;
+    text-align: center;
+}
+#thank {
+    font-family: Open Sans;
+    font-size: 20px;
+    margin-left: 30px;
+}
+form {
+    width: 75%;
+    font-family: Open Sans;
+    font-size: 17px;
+    margin-left: 130px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    padding: 25px;
+}
+.form-main-content {
+    width: 93%;
+    border: 2px solid #000000;
+    border-radius: 20px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+fieldset {
+    margin-right: 5px;
+    border-radius: 5px;
+}
+textarea {
+    padding: 5px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    font-family: Open Sans;
+    font-size: 15px;
+    max-width: 100%;
+}
+#send-thank-container{
+    margin-top: 10px;
+}
+input[type=submit] {
+    font-size: 20px;
+    padding: 10px 20px;
+    float: left;
+    cursor: pointer;
+    border-radius: 5px;
+}
+input[type=submit]:hover{
+    background-color: #4E342E;
+    color: white;
+}
