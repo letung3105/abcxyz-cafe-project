@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+}
+
+#cafe-name{
+    padding: 0 8px;
+}
+    #cafe-name h1 {
+        height: 90px;
+        color: white;
+        text-align: center;
+        border-bottom: solid 1px;
+        font-family: Kite One;
+    }
+
+.navigation-bar {
+    background-color: black;
+    height: 100%;
+    width: 180px;
+    top: 0;
+    left: 0;
+    position: fixed;
+    z-index: 1;
+}
+.navigation-bar a {
+    text-decoration: none;
+    font-family: Mukta Mahee;
+}
+.navigation-bar span {
+    font-size: 24px;
+    color: #818181;
+    line-height: 36px;
+    float: left;
+}
+.material-icons {
+    font-size: 36px;
+    color: #818181;
+    float: left;
+    margin-right: 10px
+}
+.navigation-menu-item {
+    height: 36px;
+    padding: 8px;
+    margin: 30px 0;
+}
+.navigation-menu-item:hover span,
+.navigation-menu-item:hover .material-icons {
+    color: white;
+}
+
+.main-container {
+    margin-left: 180px;
+    min-width: 600px;
+}
