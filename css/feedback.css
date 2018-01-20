@@ -1,3 +1,10 @@
+/*show the active page at the moment*/
+#now-active.navigation-menu-item .material-icons {
+    color: white;
+}
+    #now-active.navigation-menu-item span {
+        color: white;
+    }
 #page-name {
     font-family: Roboto Slab;
     font-size: 60px;
@@ -29,7 +36,8 @@
         margin-right: 5px;
         border-radius: 5px;
     }
-    .feedback-form textarea {
+    /*input text from user*/
+    .feedback-form textarea { 
         padding: 5px;
         border: 1px solid grey;
         border-radius: 5px;
@@ -40,12 +48,13 @@
     #send-thank-container{
         margin-top: 10px;
     }
+    /*'log in' and 'close' buttons*/
     .feedback-form input[type=submit] {
         font-size: 20px;
         padding: 10px 20px;
         float: left;
         cursor: pointer;
-        border-radius: 5px;
+        border: 2px solid black;
     }
     .feedback-form input[type=submit]:hover{
         background-color: #4E342E;
