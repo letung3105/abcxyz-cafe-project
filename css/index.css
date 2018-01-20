@@ -1,3 +1,11 @@
+/*show the active page at the moment*/
+#now-active.navigation-menu-item .material-icons {
+    color: white;
+}
+    #now-active.navigation-menu-item span {
+        color: white;
+    }
+/*daily greeting*/
 #daily-greetings{
     background-color: rgb(0, 0, 0, 0.8);
     position: absolute;
@@ -18,7 +26,7 @@
         text-align: center;
         padding: 0 20px;
     }
-
+/*images of signature products*/
 .slideshow-container{
     position: relative;
 }
@@ -31,9 +39,8 @@
     .slide-image-container img {
         max-height: 100%;
         width: 100%;
-        align: center;
     }
-
+/*captions for images signature products*/
 .caption {
     color: white;
     background-color: rgb(0, 0, 0, 0.75);
@@ -42,6 +49,7 @@
 }
     .caption h1 {
         margin: 0;
+        font-family: Roboto Slab;
     }
 
 .left-caption {
@@ -64,7 +72,7 @@
     text-align: center;
     border-top: solid 3px white;
 }
-
+/*transition buttons*/
 .prevButton, .nextButton {
     cursor: pointer;
     position: absolute;
@@ -93,7 +101,7 @@
     color: black;
     background-color: rgba(255,255,255, 0.8);
 }
-
+/*Overview container*/
 .about-us-container {
     width: 100%;
     height: 50%;
@@ -105,9 +113,13 @@
     float: left;
 }
     .description-container {
+        font-family: Open Sans;
         margin: 0 20px;
         text-align: justify;
     }
+        #quote {
+            font-size: 15px;
+        }
 
 .about-us-right {
     width: 40%;
@@ -134,3 +146,4 @@
     .about-us-image-container img#turkish {
         left: 50%;
     }
+    

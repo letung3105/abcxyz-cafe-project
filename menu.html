@@ -9,9 +9,11 @@
     <link rel="stylesheet" type="text/css" href="css/layout.css">
     <link rel="stylesheet" type="text/css" href="css/menu.css">
     <script type="text/javascript" src="js/login-popup.js"></script>
+    <script type="text/javascript" src="js/menu.js"></script>
 </head>
 <body>
     <div id="blur-filter"></div>
+    <!--Navigaton bar-->
     <div class="navigation-bar">
         <div id="cafe-name">
             <h1>ABCXYZ Cafe</h1>
@@ -28,7 +30,7 @@
                 <span>Homepage</span>
             </a>
         </div>
-        <div class="navigation-menu-item">
+        <div class="navigation-menu-item" id="now-active">
             <a href="menu.html">
                 <i class="material-icons">free_breakfast</i>
                 <span>Menu</span>
@@ -49,6 +51,7 @@
     </div>
 
     <div class="main-container">
+        <!--Login page pop-up-->
         <div id="login-form-container">
             <form action="" method="post" enctype="multimedia/form-data" target="_seft">
                 <h1>Log In</h1>
@@ -72,81 +75,84 @@
                 </table>
             </form>
         </div>
-
-        <p align="center">
-            <font size="+2">
-                We serve the best coffee, awesome blends, nice teas and great lattes!!!
-            </font>
+        <!--Greeting-->
+        <p class="page-greeting">
+            We serve the best coffee, awesome blends, nice teas and great lattes!
         </p>
+        <p class="page-greeting"></p>
+        <p id="heading1" class="page-greeting"></p>
         <hr width="40%">
-        <font size="+2">
-            <script language="javascript">
-                var d = new Date();
-                var weekday = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
-                var n = weekday[d.getDay()];
-                document.write('<h2 align="center">Happy ' + n + '!</h2>');
-                document.write('<p align="center">Please choose a drink to suit your wonderful ' + n + '</p>');
-            </script>
-        </font>
-        <br><br>
-        <table class="menu-listing" align="center" width="1000px" border="0" cellspacing="20px">
+        <p id="heading2" class="page-greeting"></p>
+        <!--Menu of the cafe shop-->
+        <table id="drink-menu" align="center" cellspacing="20px">
             <tr>
-                <td align="center" width="300px" height="280px">
+                <td>
                     <img src="img/small-menu/coffee.jpg"><br>
-                    <p align="center">Traditional Espreesso<br>A nice aroma</p>
+                    <p>Traditional Espreesso<br>40,000 VND</p>
                 </td>
-                <td align="center" width="300px" height="280px">
+                <td>
                     <img src="img/small-menu/jasmine-tea.jpg"><br>
-                    <p align="center">Jasmine tea<br>A nice aroma</p>
+                    <p>Jasmine tea<br>30,000 VND</p>
                 </td>
-                <td align="center" width="300px" height="280px">
+                <td>
                     <img src="img/small-menu/cappuccino.jpg"><br>
-                    <p align="center">Cappuccino<br>A nice aroma</p>
+                    <p>Cappuccino<br>45,000 VND</p>
                 </td>
             </tr>
             <tr>
-                <td align="center" width="300px" height="280px">
+                <td>
                     <img src="img/small-menu/turkish.jpg"><br>
-                    <p>Drink A<br>A nice aroma</p>
+                    <p>Turkish coffee<br>50,000 VND</p>
                 </td>
-                <td align="center" width="300px" height="280px">
+                <td>
                     <img src="img/small-menu/white-choco-mocha.jpg"><br>
-                    <p align="center">Drink A<br>A nice aroma</p>
+                    <p>White chocolate mocha<br>45,000 VND</p>
                 </td>
-                <td align="center" width="300px" height="280px">
+                <td>
                     <img src="img/small-menu/white-choco-rasp-vanilla-latte.jpg"><br>
-                    <p align="center">Drink A<br>A nice aroma</p>
+                    <p>White chocolate raspberry mocha<br>45,000 VND</p>
                 </td>
             </tr>
             <tr>
-                <td align="center" width="300px" height="280px">
+                <td>
                     <img src="img/small-menu/matcha-latte.jpg"><br>
-                    <p align="center">Drink A<br>A nice aroma</p>
+                    <p>Matcha latte<br>45,000 VND</p>
                 </td>
-                <td align="center" width="300px" height="280px">
+                <td>
                     <img src="img/small-menu/white-choco-pepermint-latte.jpg"><br>
-                    <p align="center">Drink A<br>A nice aroma</p>
+                    <p>White chocolate pepermint latte<br>45,000 VND</p>
                 </td>
-                <td align="center" width="300px" height="280px">
+                <td>
                     <img src="img/small-menu/ginger-tea.jpg"><br>
-                    <p align="center">Drink A<br>A nice aroma</p>
+                    <p>Ginger tea<br>35,000 VND</p>
                 </td>
             </tr>
             <tr>
-                <td align="center" width="300px" height="280px">
+                <td>
                     <img src="img/small-menu/latte-macchiato.jpg"><br>
-                    <p align="center">Drink A<br>A nice aroma</p>
+                    <p>Latte macchiato<br>45,000 VND</p>
                 </td>
-                <td align="center" width="300px" height="280px">
+                <td>
                     <img src="img/small-menu/caramel-ice-blended.jpg"><br>
-                    <p align="center">Drink A<br>A nice aroma</p>
+                    <p>Caramel ice blended coffee<br>50,000 VND</p>
                 </td>
-                <td align="center" width="300px" height="280px">
+                <td>
                     <img src="img/small-menu/cold-brew.jpg"><br>
-                    <p align="center">Drink A<br>A nice aroma</p>
+                    <p>Cold brew coffee<br>45,000 VND</p>
                 </td>
             </tr>
         </table>
+    </div>
+    <!--Footer-->
+    <div class="footer">
+        <p>Created by Group 3 Computer Science 2017</p>
+        <p><i>(we do not own any of the images)</i></p>
+        <p>Copy right 2017: <a href="http://www.vgu.edu.vn/" target="_blank">The Vietnamese-German University</a></p>
+        <p>Email us: <a href="mailto:13105@student.vgu.edu.vn">13105@student.vgu.edu.vn</a> (Team leader: Vo Le Tung)</p>
+        <div class="float-right">
+            <p id="last-modified"></p>
+            <a href="references.html">References</a>
+        </div>
     </div>
 </body>
 </html>

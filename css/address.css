@@ -1,3 +1,11 @@
+/*show the active page at the moment*/
+#now-active.navigation-menu-item .material-icons {
+    color: white;
+}
+    #now-active.navigation-menu-item span {
+        color: white;
+    }
+/*header image and page name on top*/
 .header-image-container {
     width: 100%;
     position: relative;
@@ -14,76 +22,75 @@
         height: 100%;
         background-color: rgb(0,0,0,0.75);
     }
-    .header-image-container .text-overlay h1 {
-        font-size: 50px;
-        position: relative;
+    .header-image-container .text-overlay #text-on-top {
+        margin-top: 40px;
         color: white;
-        top: 25%;
         text-align: center;
+        font-family: Roboto Slab;
+        font-size: 80px;
     }
-
+/*main content below the image heading*/
 .contact-address-container {
     margin-top: 30px;
     margin-left: 40px;
+    margin-bottom: 140px;
+    position: relative;
+    height: 400px;
 }
-
-.address-container {
-    width: 50%;
-    float: left;
-}
-
-.sub-title {
-    font-size: 22px;
-    font-weight: bold;
-    color: ##3C3C3C;
-    margin: 0;
-}
-.title {
-    font-size: 34px;
-    font-weight: bold;
-    margin: 0 0 0 0;
-}
-.sub-sub-title {
-    font-size: 20px;
-    font-style: italic;
-    margin: 0 0 30px 0;
-}
-.address-information {
-    font-size: 20px;
-    border-left: double;
-    padding-left: 5%;
-}
-
-.contact-form-container {
-    width: 50%;
-    float: right;
-}
-    .contact-form-container table {
-        width: 100%;
-    }
-    .contact-form-container td {
+    /*address of the cafe shop*/
+    .address-container {
+        height: 400px;
         width: 50%;
+        float: left;
+        font-family: Open Sans;
     }
-    .contact-form-container .form-content {
-        width: 100%;
-        font-size: 20px;
-        padding: 10px;
-        border: solid 2px;
+    .title {
+        font-size: 34px;
+        font-weight: bold;
+        margin: 0 0 0 0;
     }
-    #message-content {
-        width: 100%;
-        font-size: 20px;
-        padding: 10px;
-        border: solid 2px;
-        resize: none;
+    .sub-title {
+        font-size: 17px;
+        font-style: italic;
+        margin: 0 0 30px 0;
     }
-    #submit-button {
-        font-size: 24px;
-        padding: 10px 20px;
-        border: solid 2px;
-        cursor: pointer;
+    .address-information {
+        font-size: 18px;
+        border-left: double;
+        padding-left: 5%;
     }
-    #submit-button:hover {
-        color: white;
-        background-color: #4E342E;
+    /*contact form*/
+    .contact-form-container {
+        width: 50%;
+        height: 400px;
+        float: right;
     }
+        .contact-form-container table {
+            width: 100%;
+        }
+        .contact-form-container td {
+            width: 50%;
+        }
+        .contact-form-container .form-content {
+            width: 100%;
+            font-size: 18px;
+            padding: 10px;
+            border: solid 2px;
+        }
+        #message-content {
+            width: 100%;
+            font-size: 18px;
+            padding: 10px;
+            border: solid 2px;
+            resize: none;
+        }
+        #submit-button {
+            font-size: 18px;
+            padding: 10px 20px;
+            border: solid 2px;
+            cursor: pointer;
+        }
+        #submit-button:hover {
+            color: white;
+            background-color: #4E342E;
+        }
