@@ -1,3 +1,34 @@
-.menu-listing td {
-    box-shadow: 0px 3px 15px rgba(0,0,0,0.2);
+/*show the active page at the moment*/
+#now-active.navigation-menu-item .material-icons {
+    color: white;
 }
+    #now-active.navigation-menu-item span {
+        color: white;
+    }
+/*daily greeting*/
+.page-greeting {
+    font-family: Roboto Slab;
+    font-size: 27px;
+    margin-top: 20px;
+    text-align: center;
+}
+    #heading1.page-greeting  {
+        font-size: 35px;
+    }
+    #heading2.page-greeting {
+        font-size: 23px;
+    }
+/*content of the cafe's menu*/
+table#drink-menu {
+    margin-top: 70px;
+    width: 1000px;
+    border: 0;
+}
+    table#drink-menu td {
+        width: 300px;
+        height: 280px;
+        box-shadow: 0px 3px 15px rgba(0,0,0,0.2);
+        text-align: center;
+        font-family: Open Sans;
+        font-size: 17px;
+    }

@@ -1,3 +1,4 @@
+//changing images of signature products on main page
 var slideIndex = 0;
 function nextSlide(){
     showSlide(slideIndex + 1);

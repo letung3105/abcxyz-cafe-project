@@ -12,7 +12,7 @@ body {
         border-bottom: solid 1px;
         font-family: Kite One;
     }
-
+/*Navigation bar*/
 .navigation-bar {
     background-color: black;
     height: 100%;
@@ -41,23 +41,23 @@ body {
 .navigation-menu-item {
     height: 36px;
     padding: 8px;
-    margin: 30px 0;
+    margin: 17px 0;
 }
 .navigation-menu-item:hover span,
 .navigation-menu-item:hover .material-icons {
     color: white;
+    cursor: pointer;
 }
 
 .main-container {
-    height: 100%;
-    position: relative;
     margin-left: 180px;
+    margin-bottom: 140px;
     min-width: 600px;
 }
-
-#blur-filter {
+/*make the background of recent page darker but still transparent when opening login pop-up*/
+#blur-filter { 
     display: none;
-    background-color: rgb(0,0,0,0.8);
+    background-color: rgba(0,0,0,0.8); 
     position: fixed;
     top: 0;
     bottom: 0;
@@ -68,7 +68,7 @@ body {
     height: 100%;
     z-index: 1;
 }
-
+/*login page pop-up*/
 #login-form-container {
     display: none;
     background-color: white;
@@ -76,20 +76,21 @@ body {
     width: 400px;
     height: 400px;
     top: 10%;
-    left: 30%;
-    position: absolute;
+    left: 40%;
+    position: fixed;
     z-index: 1;
     border: solid 2px;
+    font-family: Open Sans;
 }
     #login-form-container .input-section {
         margin-bottom: 20px;
     }
     #login-form-container label, span {
-        font-size: 24px;
+        font-size: 20px;
     }
     #login-form-container .text-field {
         width: 100%;
-        font-size: 20px;
+        font-size: 17px;
         padding: 10px;
         border: solid 1px;
     }
@@ -102,16 +103,38 @@ body {
     }
     #login-form-container table td {
         width: 50%;
-        align: center;
     }
     .login-btn, .close-btn {
         padding: 10px 20px;
         cursor: pointer;
-        font-size: 20px;
+        font-size: 18px;
         border: 1px solid;
         width: 100%;
     }
     .login-btn:hover, .close-btn:hover {
         color: white;
         background-color: #4E342E;
+    }
+/*footer*/
+.footer {
+    height: 140px;
+    margin: 100 0 0 180;
+    border-top: 1px solid black; 
+    padding: 5px;
+    font-family: Mukta Mahee;
+    font-size: 17px;
+    line-height: 5px;
+    text-align: center;
+}
+    .footer a {
+        text-decoration-line: none;
+        font-style: italic;
+        color: #3d3a3a;
+    }
+    .footer a:visited {
+        color: #3d3a3a ;
+    }
+    .footer .float-right {
+        float: right;
+        text-align: right;
     }
